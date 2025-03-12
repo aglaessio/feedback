@@ -1,3 +1,5 @@
+import supabase from './supabase-config.js';
+
 document.getElementById('feedbackForm').addEventListener('submit', async function (event) {
     event.preventDefault();
 
